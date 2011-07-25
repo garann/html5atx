@@ -30,18 +30,18 @@ h3 { font-family: Pacifico; font-weight: normal; font-size: 20px; border-top: 3p
 p { word-spacing: 5px; }
 a { color: #ccc; text-decoration: none; } 
 a#logo { position: absolute; left: 20px; color: #000; text-decoration: none; }
-#logo:target .hh { -moz-animation: blinkout .5s 0s 1 forwards; -webkit-animation: blinkout 1s 0s 1 forwards; }
-#logo:target .ht { -moz-animation: blinkout .5s .2s 1 forwards; -webkit-animation: blinkout 1s .3s 1 forwards; }
-#logo:target .hm { -moz-animation: blinkout .5s .4s 1 forwards; -webkit-animation: blinkout 1s .6s 1 forwards; }
-#logo:target .hl { -moz-animation: blinkout .5s .6s 1 forwards; -webkit-animation: blinkout 1s .9s 1 forwards; }
-#logo:target .au { -moz-animation: blinkout .5s .8s 1 forwards; -webkit-animation: blinkout 1s 1.2s 1 forwards; }
-#logo:target .as { -moz-animation: blinkout .5s 1s 1 forwards; -webkit-animation: blinkout 1s 1.5s 1 forwards; }
-#logo:target .ai { -moz-animation: blinkout .5s 1.2s 1 forwards; -webkit-animation: blinkout 1s 1.8s 1 forwards; }
-#logo:target .an { -moz-animation: blinkout .5s 1.4s 1 forwards; -webkit-animation: blinkout 1s 2.1s 1 forwards; }
-#logo:target .lt { -moz-animation: movelt 1s 1.6s 1 forwards; -webkit-animation: movelt 2s 2.4s 1 forwards; }
-#logo:target .gt { -moz-animation: movegt .5s 2.1s 1 forwards; -webkit-animation: movegt 1s 3.4s 1 forwards; }
-#logo:target + .info { -moz-animation: slideout 1s 1.6s 1 forwards; }
-#logo:target + .info .tab { -moz-animation: disappear .5s 2.6s 1 forwards; }
+#logo:target .hh { -moz-animation: blinkout .5s 0s 1 forwards; -webkit-animation: blinkout .5s 0s 1 forwards; }
+#logo:target .ht { -moz-animation: blinkout .5s .2s 1 forwards; -webkit-animation: blinkout .5s .2s 1 forwards; }
+#logo:target .hm { -moz-animation: blinkout .5s .4s 1 forwards; -webkit-animation: blinkout .5s .4s 1 forwards; }
+#logo:target .hl { -moz-animation: blinkout .5s .6s 1 forwards; -webkit-animation: blinkout .5s .6s 1 forwards; }
+#logo:target .au { -moz-animation: blinkout .5s .8s 1 forwards; -webkit-animation: blinkout .5s .8s 1 forwards; }
+#logo:target .as { -moz-animation: blinkout .5s 1s 1 forwards; -webkit-animation: blinkout .5s 1s 1 forwards; }
+#logo:target .ai { -moz-animation: blinkout .5s 1.2s 1 forwards; -webkit-animation: blinkout .5s 1.2s 1 forwards; }
+#logo:target .an { -moz-animation: blinkout .5s 1.4s 1 forwards; -webkit-animation: blinkout .5s 1.4s 1 forwards; }
+#logo:target .lt { -moz-animation: movelt 1s 1.6s 1 forwards; -webkit-animation: movelt 1s 1.6s 1 forwards; }
+#logo:target .gt { -moz-animation: movegt .5s 2.1s 1 forwards; -webkit-animation: movegt .5s 2.1s 1 forwards; }
+#logo:target + .info { -moz-animation: slideout 1s 1.6s 1 forwards; -webkit-animation: slideout 1s 1.6s 1 forwards; }
+#logo:target + .info .tab { -moz-animation: disappear .5s 2.6s 1 forwards; -webkit-animation: disappear .5s 2.6s 1 forwards; }
 
 
 @-webkit-keyframes blinkout {
